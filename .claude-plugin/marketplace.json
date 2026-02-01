@@ -1,0 +1,23 @@
+{
+  "name": "kraftbj-claude-plugins",
+  "owner": {
+    "name": "kraftbj",
+    "url": "https://github.com/kraftbj/claude-plugins"
+  },
+  "metadata": {
+    "description": "Custom Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agents-md-support",
+      "description": "Adds support for AGENTS.md files as a fallback for CLAUDE.md, following the agents.md open standard",
+      "source": "./agents-md-support",
+      "version": "1.0.0",
+      "author": {
+        "name": "Brandon Kraft"
+      },
+      "license": "MIT"
+    }
+  ]
+}

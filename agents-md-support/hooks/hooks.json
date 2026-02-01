@@ -1,0 +1,15 @@
+{
+  "description": "SessionStart hook that loads AGENTS.md files when no CLAUDE.md is present",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks-handlers/session-start.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

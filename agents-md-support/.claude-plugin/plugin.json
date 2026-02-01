@@ -1,0 +1,9 @@
+{
+  "name": "agents-md-support",
+  "version": "1.0.0",
+  "description": "Adds support for AGENTS.md files as a fallback for CLAUDE.md, following the agents.md open standard",
+  "author": {
+    "name": "Brandon Kraft"
+  },
+  "homepage": "https://github.com/kraftbj/claude-plugins"
+}
